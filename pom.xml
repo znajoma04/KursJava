@@ -5,13 +5,18 @@
   <groupId>org.example</groupId>
   <artifactId>SNKurs</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <modules>
+    <module>Intro</module>
+  </modules>
+  <packaging>pom</packaging>
 
   <name>SNKurs</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>
   </properties>
 
   <dependencies>
