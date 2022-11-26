@@ -1,0 +1,14 @@
+# Maven #
+target/
+/.mvn
+/.maven
+/.repository
+.flattened-pom.xml
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.class
+/out/
